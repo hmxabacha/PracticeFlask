@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/layout.css">
+        <title>Web Developer</title>
+    </head>
+    <body>
+        <header>
+            <logo>
+                <img src="../static/logoh.jpg" alt="logo" width="130px" height="100px">
+            </logo>
+            <nav>
+                <button><a href="/">Home</a></button>
+                <button><a href="/certificates">Certificates</a></button>
+                <button><a href="/contact">Contact</a></button>
+                <button><a href="/registrants">Registrants</a></button>
+                <button><a href="/login">Login</a></button>
+              
+            </nav>
+        </header>
+        <main>
+
+        {%block body%}
+
+
+        {%endblock%}
+        
+        </main>
+        <footer>
+            <left class="left">
+            <logo>
+                <img src="../static/logoh.jpg" alt="logo" width="80px" height="60px">
+            </logo>
+            
+        </left>
+        <right>
+            
+            <icons class="socialIcons">
+                <a href=""><img src="../static/fa.png" alt="" width="33px"></a>
+                <a href=""><img src="../static/insta.png" alt="" width="32px"></a>
+                <a href=""><img src="../static/twitter.png" alt="" width="42px"></a>
+                <a href=""><img src="../static/yt.jpg" alt="" width="33px"></a>
+            
+            </icons>
+            <copyright>Copyright © 2024 reserved.</copyright>
+        </right>
+        </footer>
+
+    </body>
+</html>
+<style>
+    
+</style>
+
+

@@ -1,0 +1,131 @@
+header{
+    display: flex;
+    background-image: url(../static/backh.png);
+    text-align: center;
+    background-position: center;
+    padding-bottom: 3%;
+    border-bottom: 5px solid black;
+    border-radius: 5px;
+}
+nav a{
+    text-decoration: none;
+    font-size: large;
+    color: grey;
+    
+}
+nav button:hover,form button:hover{
+    background-color: grey;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: white;
+}
+
+
+nav button{
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+table,tr,td{
+      border: 2px solid lightgray;
+      margin-left: 40%;
+      border-width: 15px;
+    
+    }
+
+    nav{
+        margin-left: 30%;
+        padding-top: 8%;
+    }
+    logo{
+        margin-top: 3%;
+        margin-left: 5%;
+        
+    }
+footer{
+    display: flex;
+    border-radius: 5px;
+    border: 3px solid black;
+    
+    align-items: center;
+    text-align: center;
+    background-color:lightgrey;
+}
+
+footer a,h3{
+    text-decoration: none;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+right{
+    display: flex;
+}
+copyright,icons{
+    margin-left: 450px;
+    
+}
+footer logo{
+    margin-top: 6%;
+    margin-left: 80px;
+}
+copyright{
+    margin-top: 150px;
+}
+reg h2{
+    margin-left: 21%;
+}
+input,h3{
+    display: block;
+    margin-top: 15px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 37%;
+    font-size: large;
+}
+
+header button{
+    height: 30px;
+    width: 125px;
+}
+form button{
+    margin-top: 15px;
+    width: 257px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 37%;
+    font-size: large;
+}
+
+home,home li{
+    text-align: center;
+    list-style-type: none;    
+}
+contact h4,contact p{
+    margin-left: 40%;
+}
+certificates img{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+certificates h2{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+main{
+    background-color: darkgrey;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+a img{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+a img:hover{
+    background-color: black;
+    color: blue;
+    border-radius: 5px;
+    transition: 0.5s;
+}

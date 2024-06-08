@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<reg>
+  <h2>These are the registrants:</h2>
+</reg>
+  <table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for r in registrants %}
+        <tr>
+            
+            <td>{{r[0]}}</td>
+            <td>{{r[1]}}</td>
+            
+        </tr>
+        {%endfor%}
+    </tbody>
+    
+  </table>
+
+{% endblock %}
+
